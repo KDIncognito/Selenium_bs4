@@ -129,7 +129,6 @@ def explode(df, lst_cols, fill_value='', preserve_index=False):
         res = res.reset_index(drop=True)
     return res
 
-```
 abdl= explode(address_out,['address_loc','address_plc','address_zip','address_tel'],fill_value='', preserve_index=True)
 driver.close() #close the selenium instance
 
