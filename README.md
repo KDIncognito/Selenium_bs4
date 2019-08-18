@@ -1,11 +1,12 @@
-##Harvesting data from Ryder's website
+# Harvesting data from Ryder's website
+
 As part of my work, I encountered a need where somebody needed a list of Ryder's locations. Part of Ryder's website has content that gets rendered only through user interaction with certain elements. This JavaScript enabled content is not easy to scrape from their website, so I needed to use Selenium with bs4
 
 ### Dependencies
 BeautifulSoup, Requests, Random, Numpy, Pandas and geckodriver.
 Geckodriver is necessary for the Slenium to work with a browser. I use Firefox in this example.
 
-###whenever you're ready
+### whenever you're ready
 load all required modules
 ```
 import random
@@ -93,7 +94,7 @@ for city in cities:
 towns=pd.DataFrame()
 towns= cities.append(address_out)    
 ```
-After this step, you might want to change how the data format, and I found this neat piece of code to do that. I am unable to recall from where, but it works.
+After this step, you might want to change how the data is formatted, and I found this neat piece of code to do that. I am unable to recall from where, but it works.
 
 Create an explode function 
 ```
