@@ -2,7 +2,7 @@
 
 As part of my work, I encountered a need where somebody needed a list of Ryder's locations. Part of Ryder's website has content that gets rendered only through user interaction with certain elements. This JavaScript enabled content is not easy to scrape from their website, so I needed to use Selenium with bs4. 
 
-##### Note: I have included random wait times so not to overload Ryder's website with too many requests. Please make sure you do so. Please also bare in mind that harvesting data from websites may not be illegal, but it may be unethical in many instances. 
+##### Note: I have included random wait times so not to overload Ryder's website with too many requests. Please make sure you do so too. Please also bare in mind that harvesting data from websites may not be illegal, but it may be unethical in many instances. 
 
 ### Dependencies
 BeautifulSoup, Requests, Random, Numpy, Pandas and geckodriver.
