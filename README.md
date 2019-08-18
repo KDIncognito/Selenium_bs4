@@ -98,7 +98,7 @@ towns= cities.append(address_out)
 ```
 After this step, you might want to change how the data is formatted, and I found this neat piece of code to do that. I am unable to recall from where, but it works.
 
-Create an explode function 
+##### Create an explode function 
 ```
 def explode(df, lst_cols, fill_value='', preserve_index=False):
     # make sure `lst_cols` is list-alike
